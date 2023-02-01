@@ -1,0 +1,11 @@
+list1=[11,11,22,22,33,4,55,77,4]
+uniquelist=[]
+duplicatelist=[]
+for i in list1:
+    if i not in uniquelist:
+        uniquelist.append(i)
+    elif i not in duplicatelist:
+        duplicatelist.append(i)
+print(duplicatelist)  
+print(uniquelist)
+        
